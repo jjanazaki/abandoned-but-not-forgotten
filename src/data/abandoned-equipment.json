@@ -1,0 +1,746 @@
+{
+  "meta": {
+    "title": "Abandoned but not Forgotten",
+    "subtitle": "Stories of Spacecraft and Equipment Left Outside Earth",
+    "challenge": "NASA Space Apps Challenge 2026 — \"Abandoned but not Forgotten: Storytelling about NASA's Discarded Equipment on the Moon and Mars.\"",
+    "generatedOn": "2026-10-31",
+    "sourceDocuments": [
+      "Abandoned_Equipment_Outside_Earth.docx",
+      "Abandoned_Equipment_Part2.docx",
+      "mars-equipment-all.docx"
+    ],
+    "notes": [
+      "Ingenuity appears in both Abandoned_Equipment_Outside_Earth.docx and mars-equipment-all.docx; the two entries are merged into one record here.",
+      "Text is kept as written in the source documents wherever possible. Fields listed in an entry's \"derived\" array were condensed or filled in for the app (e.g. a plain-language \"goal\"/\"story\" for entries whose document only had a mission-purpose table).",
+      "\"location.coordinates\" and \"location.trajectory\" are NOT in the source documents. They were added only so the app can place the glowing dot on the 3D world, and are approximate.",
+      "Part 2 notes: Opportunity and Spirit are classic \"abandoned but not forgotten\" Mars rovers, while the Apollo 11 descent stage is the most famous piece of hardware left on the Moon.",
+      "Images in /public/images are the illustrative reconstructions embedded in the Word documents, not official NASA photographs. Official images: NASA image libraries (images.nasa.gov, JPL)."
+    ]
+  },
+
+  "bodies": [
+    {
+      "id": "mars",
+      "name": "Mars",
+      "kind": "planet",
+      "kindLabel": "Planet",
+      "tagline": "One-way trips that became monuments",
+      "description": "Landers, rovers and a helicopter that were never designed to come home. Some worked for years beyond their warranty; all of them are still there.",
+      "radiusKm": 3389.5,
+      "axialTiltDeg": 25.2,
+      "overview": null
+    },
+    {
+      "id": "moon",
+      "name": "The Moon",
+      "kind": "moon",
+      "kindLabel": "Moon",
+      "tagline": "Footprints and hardware",
+      "description": "Humans have left more than 187,000 kg of material on the lunar surface — descent stages, rovers, experiments and robotic landers.",
+      "radiusKm": 1737.4,
+      "axialTiltDeg": 6.7,
+      "overview": {
+        "title": "Major Equipment Left on the Moon",
+        "summary": "Humans have left more than 187,000 kg of material on the lunar surface. Most of it is from Apollo missions (descent stages of Lunar Modules, Lunar Rovers, scientific packages) and earlier robotic landers (Surveyor, Luna). These were left behind to reduce mass for the return journey or because they completed their one-way missions.",
+        "facts": [
+          { "label": "Notable Examples", "value": "Apollo 11–17 Lunar Module descent stages; Apollo 15–17 Lunar Roving Vehicles; Surveyor landers; Luna 2 (first impact, 1959); Lunokhod rovers" },
+          { "label": "Why Left Behind", "value": "Apollo: Descent stages served as launch platforms for the ascent stages that returned astronauts and samples to orbit. Tools, experiments, and rovers were too heavy or unnecessary for return. Robotic missions were designed as one-way." },
+          { "label": "Still Operational", "value": "Retroreflectors from Apollo 11, 14, 15 and Soviet Lunokhods continue to be used for laser ranging experiments that measure the Earth-Moon distance with high precision." },
+          { "label": "Key Reference", "value": "Wikipedia: List of artificial objects on the Moon; NASA Lunar Reconnaissance Orbiter images of landing sites" }
+        ]
+      }
+    },
+    {
+      "id": "deep-space",
+      "name": "Deep Space",
+      "kind": "deep",
+      "kindLabel": "Beyond the planets",
+      "tagline": "Still travelling, long after goodbye",
+      "description": "Probes on one-way trajectories out of the solar system. Some are still talking to us, some have been silent for decades — all of them keep going.",
+      "radiusKm": null,
+      "axialTiltDeg": null,
+      "overview": null
+    }
+  ],
+
+  "tools": [
+    {
+      "id": "sojourner",
+      "name": "Sojourner (Mars Pathfinder)",
+      "shortName": "Sojourner",
+      "body": "mars",
+      "category": "Rover",
+      "model": "sojourner",
+      "agency": "NASA",
+      "country": "United States",
+      "location": {
+        "summary": "Mars",
+        "place": "Mars",
+        "coordinates": { "latitude": 19.13, "longitude": -33.22, "approximate": true },
+        "trajectory": null,
+        "distanceAU": null
+      },
+      "dates": {
+        "label": "Launched Dec 4, 1996 · Landed on Mars in 1997",
+        "launch": "Dec 4, 1996",
+        "landing": "1997",
+        "launchYear": 1996,
+        "endYear": 1998
+      },
+      "launchVehicle": null,
+      "goal": "Show a low-cost way to deliver science instruments to Mars, and test a wheeled rover on another planet",
+      "story": "Sojourner was the first wheeled vehicle to drive on another planet. It was planned to work for 7 days, but it explored Mars for 83 days. It was only about 65 cm long, yet it became the foundation for the big rovers that came after it.",
+      "missionPurpose": null,
+      "instruments": ["IMP camera", "weather package (ASI/MET)", "X-ray soil analyzer (APXS)", "rover cameras"],
+      "keyAchievements": [
+        "First wheeled vehicle to drive on another planet",
+        "Planned to work for 7 days, but explored Mars for 83 days",
+        "About 65 cm long, yet the foundation for the big rovers that came after it"
+      ],
+      "whyLeftBehind": null,
+      "status": {
+        "state": "mission-ended",
+        "label": "Mission ended",
+        "summary": "Mission ended. Last transmission Sept 27, 1997. Officially ended Mar 10, 1998",
+        "details": "Mission ended. Last transmission Sept 27, 1997. Officially ended Mar 10, 1998",
+        "lastContact": "Sept 27, 1997",
+        "missionEnded": "Mar 10, 1998"
+      },
+      "importantDates": [
+        { "label": "Launch", "date": "Dec 4, 1996" },
+        { "label": "Landed on Mars", "date": "1997" },
+        { "label": "Last transmission", "date": "Sept 27, 1997" },
+        { "label": "Officially ended", "date": "Mar 10, 1998" }
+      ],
+      "notes": null,
+      "image": {
+        "file": "sojourner.jpg",
+        "available": false,
+        "caption": null,
+        "credit": "https://www.jpl.nasa.gov/"
+      },
+      "sources": [
+        { "label": "NASA JPL — Mars Pathfinder / Sojourner rover", "url": "https://www.jpl.nasa.gov/missions/mars-pathfinder-sojourner-rover/" },
+        { "label": "NASA JPL — Three generations of rovers (PIA15279)", "url": "https://www.jpl.nasa.gov/images/pia15279-three-generations-of-rovers-with-standing-engineers/" },
+        { "label": "NASA JPL — Sojourner and Yogi (PIA00766)", "url": "https://www.jpl.nasa.gov/images/pia00766-sojourner-yogi" }
+      ],
+      "sourceNote": null,
+      "derived": ["agency", "country", "keyAchievements"],
+      "sourceDocument": "mars-equipment-all.docx"
+    },
+
+    {
+      "id": "viking-1",
+      "name": "Viking 1 Lander",
+      "shortName": "Viking 1",
+      "body": "mars",
+      "category": "Lander",
+      "model": "viking",
+      "agency": "NASA",
+      "country": "United States",
+      "location": {
+        "summary": "Mars, Chryse Planitia",
+        "place": "Chryse Planitia",
+        "coordinates": { "latitude": 22.27, "longitude": -47.95, "approximate": true },
+        "trajectory": null,
+        "distanceAU": null
+      },
+      "dates": {
+        "label": "Launched Aug 20, 1975 · Landed on Mars Jul 20, 1976",
+        "launch": "Aug 20, 1975",
+        "landing": "Jul 20, 1976",
+        "launchYear": 1975,
+        "endYear": 1983
+      },
+      "launchVehicle": null,
+      "goal": "Study the surface and weather of Mars, and search the soil for signs of life",
+      "story": "Viking 1 was the first American spacecraft to land successfully on Mars, and its first photo was the first clear view of the Martian surface. It was planned to work for 90 days, but it kept sending data for more than six years. Its experiments found puzzling chemistry in the soil but no clear sign of life.",
+      "missionPurpose": null,
+      "instruments": ["2 cameras", "weather boom", "X-ray soil analyzer", "gas chromatograph mass spectrometer", "3 biology experiments", "seismometer", "sampler arm"],
+      "keyAchievements": [
+        "First American spacecraft to land successfully on Mars",
+        "Its first photo was the first clear view of the Martian surface",
+        "Planned to work for 90 days, but sent data for more than six years",
+        "Experiments found puzzling chemistry in the soil but no clear sign of life"
+      ],
+      "whyLeftBehind": null,
+      "status": {
+        "state": "mission-ended",
+        "label": "Mission ended",
+        "summary": "Mission ended. Last transmission Nov 11, 1982. Officially ended May 21, 1983",
+        "details": "Mission ended. Last transmission Nov 11, 1982. Officially ended May 21, 1983",
+        "lastContact": "Nov 11, 1982",
+        "missionEnded": "May 21, 1983"
+      },
+      "importantDates": [
+        { "label": "Launch", "date": "Aug 20, 1975" },
+        { "label": "Landed on Mars", "date": "Jul 20, 1976" },
+        { "label": "Last transmission", "date": "Nov 11, 1982" },
+        { "label": "Officially ended", "date": "May 21, 1983" }
+      ],
+      "notes": null,
+      "image": {
+        "file": "viking-1-lander.jpg",
+        "available": false,
+        "caption": null,
+        "credit": "https://www.jpl.nasa.gov/"
+      },
+      "sources": [
+        { "label": "Solarviews — NASA Viking fact sheet (copy)", "url": "https://solarviews.com/eng/vikingfs.htm" },
+        { "label": "NASA — Viking 40th anniversary litho (PDF)", "url": "http://www.nasa.gov/sites/default/files/atoms/files/viking_40th_litho.pdf" },
+        { "label": "NASA Photojournal — First photograph taken on Mars surface", "url": "https://science.nasa.gov/photojournal/first-photograph-taken-on-mars-surface/" }
+      ],
+      "sourceNote": null,
+      "derived": ["agency", "country", "keyAchievements"],
+      "sourceDocument": "mars-equipment-all.docx"
+    },
+
+    {
+      "id": "insight",
+      "name": "InSight Lander",
+      "shortName": "InSight",
+      "body": "mars",
+      "category": "Lander",
+      "model": "insight",
+      "agency": "NASA",
+      "country": "United States",
+      "location": {
+        "summary": "Mars, Elysium Planitia",
+        "place": "Elysium Planitia",
+        "coordinates": { "latitude": 4.5, "longitude": 135.62, "approximate": true },
+        "trajectory": null,
+        "distanceAU": null
+      },
+      "dates": {
+        "label": "Launched May 5, 2018 · Landed on Mars Nov 26, 2018",
+        "launch": "May 5, 2018",
+        "landing": "Nov 26, 2018",
+        "launchYear": 2018,
+        "endYear": 2022
+      },
+      "launchVehicle": null,
+      "goal": "Study the deep interior of Mars: its crust, mantle and core",
+      "story": "InSight was a robot \"doctor\" for Mars. Its seismometer listened to marsquakes and detected the first one in April 2019. It was planned to work for about two years, but kept going for four. Slowly, dust covered its solar panels until it ran out of power.",
+      "missionPurpose": null,
+      "instruments": ["SEIS seismometer", "HP3 heat probe", "RISE radio experiment"],
+      "keyAchievements": [
+        "Detected the first marsquake in April 2019",
+        "Planned to work for about two years, but kept going for four"
+      ],
+      "whyLeftBehind": null,
+      "status": {
+        "state": "mission-ended",
+        "label": "Mission ended",
+        "summary": "Mission ended. Last contact Dec 15, 2022. Officially ended Dec 21, 2022",
+        "details": "Mission ended. Last contact Dec 15, 2022. Officially ended Dec 21, 2022",
+        "lastContact": "Dec 15, 2022",
+        "missionEnded": "Dec 21, 2022"
+      },
+      "importantDates": [
+        { "label": "Launch", "date": "May 5, 2018" },
+        { "label": "Landed on Mars", "date": "Nov 26, 2018" },
+        { "label": "First marsquake detected", "date": "April 2019" },
+        { "label": "Last contact", "date": "Dec 15, 2022" },
+        { "label": "Officially ended", "date": "Dec 21, 2022" }
+      ],
+      "notes": "CNES (France) and DLR (Germany) are among the listed sources for the mission.",
+      "image": {
+        "file": "insight.jpg",
+        "available": false,
+        "caption": null,
+        "credit": "https://images.nasa.gov/"
+      },
+      "sources": [
+        { "label": "CNES — InSight", "url": "https://cnes.fr/en/projects/insight" },
+        { "label": "DLR — InSight", "url": "https://www.dlr.de/en/research-and-transfer/projects-and-missions/insight" },
+        { "label": "NASA — Saying farewell to the InSight Mars lander", "url": "https://www.nasa.gov/image-article/saying-farewell-insight-mars-lander" }
+      ],
+      "sourceNote": null,
+      "derived": ["agency", "country", "keyAchievements", "notes"],
+      "sourceDocument": "mars-equipment-all.docx"
+    },
+
+    {
+      "id": "ingenuity",
+      "name": "Ingenuity Mars Helicopter",
+      "shortName": "Ingenuity",
+      "body": "mars",
+      "category": "Helicopter",
+      "model": "ingenuity",
+      "agency": "NASA",
+      "country": "United States",
+      "location": {
+        "summary": "Mars, Jezero Crater — permanently grounded at Valinor Hills",
+        "place": "Jezero Crater (Valinor Hills)",
+        "coordinates": { "latitude": 18.44, "longitude": 77.45, "approximate": true },
+        "trajectory": null,
+        "distanceAU": null
+      },
+      "dates": {
+        "label": "Landed on Mars Feb 18, 2021 · First flight Apr 19, 2021",
+        "launch": "July 30, 2020 (with Perseverance)",
+        "landing": "February 18, 2021 (landed with Perseverance)",
+        "firstFlight": "April 19, 2021",
+        "launchYear": 2020,
+        "endYear": 2024
+      },
+      "launchVehicle": null,
+      "goal": "Show that powered, controlled flight is possible on Mars",
+      "story": "Ingenuity travelled to Mars attached to the Perseverance rover. It was meant to make only five test flights in 30 days, but it flew 72 times in almost three years. It became a scout for the rover, and proved that aircraft can explore other worlds.",
+      "missionPurpose": "Technology demonstration: first powered, controlled flight on another planet. Later served as a scout for the Perseverance rover.",
+      "instruments": ["Navigation camera", "color camera", "two counter-rotating rotors", "solar panel"],
+      "keyAchievements": [
+        "72 flights",
+        "17 km flown",
+        "Altitudes up to 24 m",
+        "Proved aerial mobility is possible on Mars",
+        "Paved the way for future flying explorers"
+      ],
+      "whyLeftBehind": "Technology demo completed. After 72 flights a rotor blade was damaged on the final flight (January 18, 2024). Mission ended January 25, 2024. No recovery capability.",
+      "status": {
+        "state": "mission-ended",
+        "label": "Mission ended",
+        "summary": "Mission ended. Last flight Jan 18, 2024. Officially ended Jan 25, 2024",
+        "details": "Permanently grounded at Valinor Hills in Jezero Crater. Still able to collect limited data until contact is lost as Perseverance moves away.",
+        "lastContact": null,
+        "missionEnded": "Jan 25, 2024"
+      },
+      "importantDates": [
+        { "label": "Launch (with Perseverance)", "date": "July 30, 2020" },
+        { "label": "Landed on Mars", "date": "Feb 18, 2021" },
+        { "label": "First flight", "date": "Apr 19, 2021" },
+        { "label": "Last flight (rotor blade damaged)", "date": "Jan 18, 2024" },
+        { "label": "Officially ended", "date": "Jan 25, 2024" }
+      ],
+      "notes": null,
+      "image": {
+        "file": "ingenuity.jpg",
+        "available": true,
+        "caption": "Illustrative image of Ingenuity",
+        "credit": "https://images.nasa.gov/"
+      },
+      "sources": [
+        { "label": "NASA Science — Ingenuity Mars Helicopter", "url": "https://science.nasa.gov/mission/mars-2020-perseverance/ingenuity-mars-helicopter/" }
+      ],
+      "sourceNote": "Data compiled from NASA Science, The Planetary Society, NSSDCA, Wikipedia lists of artificial objects, and official mission pages. Images are illustrative reconstructions for this document; official NASA photographs are available on the agency's image libraries.",
+      "derived": ["keyAchievements"],
+      "sourceDocument": "Abandoned_Equipment_Outside_Earth.docx + mars-equipment-all.docx (merged)"
+    },
+
+    {
+      "id": "curiosity",
+      "name": "Curiosity (Mars Science Laboratory)",
+      "shortName": "Curiosity",
+      "body": "mars",
+      "category": "Rover",
+      "model": "curiosity",
+      "agency": "NASA",
+      "country": "United States",
+      "location": {
+        "summary": "Gale Crater / Mount Sharp, Mars",
+        "place": "Gale Crater / Mount Sharp",
+        "coordinates": { "latitude": -4.59, "longitude": 137.44, "approximate": true },
+        "trajectory": null,
+        "distanceAU": null
+      },
+      "dates": {
+        "label": "Launched Nov 26, 2011 · Landed Aug 6, 2012",
+        "launch": "November 26, 2011",
+        "landing": "August 6, 2012",
+        "launchYear": 2011,
+        "endYear": null
+      },
+      "launchVehicle": null,
+      "goal": "Determine if Mars ever had the environmental conditions to support microbial life. Analyze rocks, soil, and atmosphere.",
+      "story": "Curiosity landed in Gale Crater in 2012 as a one-way surface mission, with no way to come home. More than 5,000 sols later it is still working: it has driven about 38 km, climbed over 1 km up Mount Sharp, and keeps finding organic molecules and evidence of ancient habitable environments.",
+      "missionPurpose": "Determine if Mars ever had the environmental conditions to support microbial life. Analyze rocks, soil, and atmosphere.",
+      "instruments": [],
+      "keyAchievements": [
+        "Confirmed past habitable environments",
+        "Discovered organic compounds",
+        "Detailed study of Mount Sharp's rock layers"
+      ],
+      "whyLeftBehind": "Designed as a one-way surface mission. No ascent vehicle or sample-return capability was included. It continues long-term exploration; returning it would require a future dedicated mission.",
+      "status": {
+        "state": "active",
+        "label": "Still active",
+        "summary": "Still active after more than 5,000 sols.",
+        "details": "Still active after more than 5,000 sols. Has driven ~38 km and climbed over 1 km in elevation. Continues to find organic molecules and evidence of ancient habitable environments.",
+        "lastContact": null,
+        "missionEnded": null
+      },
+      "importantDates": [
+        { "label": "Launch", "date": "Nov 26, 2011" },
+        { "label": "Landing", "date": "Aug 6, 2012" }
+      ],
+      "notes": null,
+      "image": {
+        "file": "curiosity.jpg",
+        "available": true,
+        "caption": "Illustrative image of Curiosity rover",
+        "credit": null
+      },
+      "sources": [],
+      "sourceNote": "Data compiled from NASA Science, The Planetary Society, NSSDCA, Wikipedia lists of artificial objects, and official mission pages. Images are illustrative reconstructions for this document; official NASA photographs are available on the agency's image libraries.",
+      "derived": ["story"],
+      "sourceDocument": "Abandoned_Equipment_Outside_Earth.docx"
+    },
+
+    {
+      "id": "opportunity",
+      "name": "Opportunity (MER-B)",
+      "shortName": "Opportunity",
+      "body": "mars",
+      "category": "Rover",
+      "model": "mer",
+      "agency": "NASA",
+      "country": "United States",
+      "location": {
+        "summary": "Meridiani Planum, Mars (final resting place: Perseverance Valley)",
+        "place": "Meridiani Planum · Perseverance Valley",
+        "coordinates": { "latitude": -2.27, "longitude": -5.53, "approximate": true },
+        "trajectory": null,
+        "distanceAU": null
+      },
+      "dates": {
+        "label": "Launched Jul 7, 2003 · Landed Jan 25, 2004",
+        "launch": "July 7, 2003",
+        "landing": "January 25, 2004",
+        "launchYear": 2003,
+        "endYear": 2019
+      },
+      "launchVehicle": null,
+      "goal": "Search for evidence of past liquid water and study the geology of Mars as a robotic field geologist.",
+      "story": "Opportunity was built for a 90-sol mission, but worked for about 15 years. It drove 45.16 km — a marathon distance and a one-time off-world record — and found strong evidence of past water. A global dust storm covered its solar panels, and the last contact came on June 10, 2018.",
+      "missionPurpose": "Search for evidence of past liquid water and study the geology of Mars as a robotic field geologist.",
+      "instruments": [],
+      "keyAchievements": [
+        "Drove 45.16 km (28.06 miles) — marathon distance and previous off-world record",
+        "Found strong evidence of past water",
+        "Operated for 15 years"
+      ],
+      "whyLeftBehind": "Designed as a one-way surface mission. No return capability. It far exceeded its 90-sol design life.",
+      "status": {
+        "state": "mission-ended",
+        "label": "Mission ended",
+        "summary": "Mission ended February 13, 2019. Last contact June 10, 2018.",
+        "details": "Mission ended February 13, 2019. Last contact June 10, 2018 during a global dust storm that covered its solar panels. Still on the surface of Mars.",
+        "lastContact": "June 10, 2018",
+        "missionEnded": "February 13, 2019"
+      },
+      "importantDates": [
+        { "label": "Launch", "date": "Jul 7, 2003" },
+        { "label": "Landing", "date": "Jan 25, 2004" },
+        { "label": "Last contact (global dust storm)", "date": "Jun 10, 2018" },
+        { "label": "Mission ended", "date": "Feb 13, 2019" }
+      ],
+      "notes": null,
+      "image": {
+        "file": "opportunity.jpg",
+        "available": true,
+        "caption": "Illustrative image of Opportunity",
+        "credit": null
+      },
+      "sources": [],
+      "sourceNote": "Sources: NASA mission pages, Planetary Society, Wikipedia, and official mission archives. Images are illustrative reconstructions.",
+      "derived": ["story"],
+      "sourceDocument": "Abandoned_Equipment_Part2.docx"
+    },
+
+    {
+      "id": "spirit",
+      "name": "Spirit (MER-A)",
+      "shortName": "Spirit",
+      "body": "mars",
+      "category": "Rover",
+      "model": "mer",
+      "agency": "NASA",
+      "country": "United States",
+      "location": {
+        "summary": "Gusev Crater, Mars (stuck at a site called Troy)",
+        "place": "Gusev Crater · Troy",
+        "coordinates": { "latitude": -14.57, "longitude": 175.47, "approximate": true },
+        "trajectory": null,
+        "distanceAU": null
+      },
+      "dates": {
+        "label": "Launched Jun 10, 2003 · Landed Jan 4, 2004",
+        "launch": "June 10, 2003",
+        "landing": "January 4, 2004",
+        "launchYear": 2003,
+        "endYear": 2011
+      },
+      "launchVehicle": null,
+      "goal": "Search for evidence of past water and study Martian geology.",
+      "story": "Spirit — twin of Opportunity — explored Gusev Crater and the Columbia Hills, and was the first robot to summit a hill on another planet. In 2009 it became immobilized in soft soil at a site called Troy, and kept working as a stationary science platform until its power failed.",
+      "missionPurpose": "Search for evidence of past water and study Martian geology.",
+      "instruments": [],
+      "keyAchievements": [
+        "Drove 7.73 km",
+        "Found evidence of ancient hot springs and water-altered minerals",
+        "First robot to summit a hill on another planet"
+      ],
+      "whyLeftBehind": "One-way mission. Became immobilized in soft soil in 2009; continued as a stationary science platform until power failed.",
+      "status": {
+        "state": "mission-ended",
+        "label": "Mission ended",
+        "summary": "Last contact March 22, 2010. Mission officially ended May 25, 2011.",
+        "details": "Last contact March 22, 2010. Mission officially ended May 25, 2011. Remains on Mars.",
+        "lastContact": "March 22, 2010",
+        "missionEnded": "May 25, 2011"
+      },
+      "importantDates": [
+        { "label": "Launch", "date": "Jun 10, 2003" },
+        { "label": "Landing", "date": "Jan 4, 2004" },
+        { "label": "Immobilized in soft soil", "date": "2009" },
+        { "label": "Last contact", "date": "Mar 22, 2010" },
+        { "label": "Mission officially ended", "date": "May 25, 2011" }
+      ],
+      "notes": "Twin of Opportunity. Explored Gusev Crater and the Columbia Hills.",
+      "image": null,
+      "sources": [],
+      "sourceNote": "Sources: NASA mission pages, Planetary Society, Wikipedia, and official mission archives. Images are illustrative reconstructions.",
+      "derived": ["story"],
+      "sourceDocument": "Abandoned_Equipment_Part2.docx"
+    },
+
+    {
+      "id": "apollo-11-lm",
+      "name": "Apollo 11 Lunar Module Descent Stage (Eagle)",
+      "shortName": "Apollo 11 · Eagle",
+      "body": "moon",
+      "category": "Descent stage",
+      "model": "apollo-lm",
+      "agency": "NASA",
+      "country": "United States",
+      "location": {
+        "summary": "Sea of Tranquility, Moon",
+        "place": "Sea of Tranquility",
+        "coordinates": { "latitude": 0.67, "longitude": 23.47, "approximate": true },
+        "trajectory": null,
+        "distanceAU": null
+      },
+      "dates": {
+        "label": "Launched Jul 16, 1969 · Landed Jul 20, 1969",
+        "launch": "July 16, 1969 (Saturn V)",
+        "landing": "July 20, 1969",
+        "launchYear": 1969,
+        "endYear": 1969
+      },
+      "launchVehicle": "Saturn V",
+      "goal": "Carry Neil Armstrong and Buzz Aldrin to the lunar surface for the first human Moon landing, then serve as a launch platform for the ascent stage.",
+      "story": "Eagle's descent stage carried Neil Armstrong and Buzz Aldrin down to the Moon, then acted as the launch pad for the ascent stage that took them back to lunar orbit. Leaving it behind meant less mass to lift. It is still in the Sea of Tranquility, visible in high-resolution images from NASA's Lunar Reconnaissance Orbiter.",
+      "missionPurpose": "Carry Neil Armstrong and Buzz Aldrin to the lunar surface for the first human Moon landing. Served as a launch platform for the ascent stage.",
+      "instruments": [],
+      "keyAchievements": [
+        "First human-made structure left on the Moon after a crewed landing",
+        "Part of the larger collection of Apollo hardware (descent stages, rovers, experiments) still on the lunar surface"
+      ],
+      "whyLeftBehind": "The descent stage was designed to stay on the surface. It provided the engine and structure for landing and then acted as the launch pad for the ascent stage that returned the astronauts to lunar orbit. Leaving it behind reduced the mass that needed to be lifted back.",
+      "status": {
+        "state": "left-behind",
+        "label": "Left on the Moon",
+        "summary": "Still on the Moon.",
+        "details": "Still on the Moon. Visible in high-resolution images from NASA's Lunar Reconnaissance Orbiter. The lower stage, landing legs, and some equipment remain intact.",
+        "lastContact": null,
+        "missionEnded": null
+      },
+      "importantDates": [
+        { "label": "Launch (Saturn V)", "date": "Jul 16, 1969" },
+        { "label": "Landing", "date": "Jul 20, 1969" }
+      ],
+      "notes": "First human-made structure left on the Moon after a crewed landing. Part of the larger collection of Apollo hardware (descent stages, rovers, experiments) still on the lunar surface.",
+      "image": {
+        "file": "apollo-11-lm.jpg",
+        "available": true,
+        "caption": "Illustrative image of Apollo 11 Lunar Module descent stage",
+        "credit": null
+      },
+      "sources": [],
+      "sourceNote": "Sources: NASA mission pages, Planetary Society, Wikipedia, and official mission archives. Images are illustrative reconstructions.",
+      "derived": ["story"],
+      "sourceDocument": "Abandoned_Equipment_Part2.docx"
+    },
+
+    {
+      "id": "pioneer-10",
+      "name": "Pioneer 10",
+      "shortName": "Pioneer 10",
+      "body": "deep-space",
+      "category": "Deep-space probe",
+      "model": "pioneer",
+      "agency": "NASA",
+      "country": "United States",
+      "location": {
+        "summary": "Deep space — heading toward the star Aldebaran, ~142 AU from the Sun (as of late 2026)",
+        "place": "Deep space, toward Aldebaran",
+        "coordinates": null,
+        "trajectory": { "eclipticLongitudeDeg": 70, "eclipticLatitudeDeg": -5.5, "approximate": true },
+        "distanceAU": 142
+      },
+      "dates": {
+        "label": "Launched Mar 2, 1972",
+        "launch": "March 2, 1972",
+        "landing": null,
+        "launchYear": 1972,
+        "endYear": 2003
+      },
+      "launchVehicle": "Atlas-Centaur",
+      "goal": "Be the first spacecraft to cross the asteroid belt and fly by Jupiter, studying the outer solar system, radiation, magnetic fields and dust.",
+      "story": "Pioneer 10 was the first spacecraft to cross the asteroid belt and the first to fly past Jupiter. Built as a one-way probe, it kept going out of the solar system, carrying a plaque designed with input from Carl Sagan as a message to potential extraterrestrial life. Its last signal arrived in January 2003.",
+      "missionPurpose": "First spacecraft to traverse the asteroid belt and fly by Jupiter. Studied the outer solar system, radiation, magnetic fields, and dust.",
+      "instruments": [],
+      "keyAchievements": [
+        "First through the asteroid belt (July 15, 1972)",
+        "First Jupiter flyby (December 3, 1973)",
+        "Carried the famous Pioneer plaque designed with input from Carl Sagan as a message to potential extraterrestrial life"
+      ],
+      "whyLeftBehind": "Designed as a one-way probe. After the Jupiter flyby it continued on an escape trajectory out of the solar system. No return capability was built in; the mission was pure exploration of the outer solar system and beyond.",
+      "status": {
+        "state": "contact-lost",
+        "label": "Contact lost",
+        "summary": "Contact lost in January 2003 (last signal).",
+        "details": "Contact lost in January 2003 (last signal). Still traveling toward the star Aldebaran (expected arrival in ~2 million years). Estimated distance ~142 AU from the Sun (as of late 2026).",
+        "lastContact": "23 Jan 2003",
+        "missionEnded": null
+      },
+      "importantDates": [
+        { "label": "Launch", "date": "2 Mar 1972" },
+        { "label": "Asteroid belt", "date": "15 Jul 1972" },
+        { "label": "Jupiter", "date": "3 Dec 1973" },
+        { "label": "Last signal", "date": "23 Jan 2003" }
+      ],
+      "notes": "Carries a gold-anodized aluminum plaque showing human figures and the location of Earth relative to pulsars. Predecessor to the Voyager Golden Records.",
+      "image": {
+        "file": "pioneer-10.jpg",
+        "available": true,
+        "caption": "Illustrative image of Pioneer 10 (based on historical design; actual photos available from NASA archives)",
+        "credit": null
+      },
+      "sources": [],
+      "sourceNote": "Data compiled from NASA Science, The Planetary Society, NSSDCA, Wikipedia lists of artificial objects, and official mission pages. Images are illustrative reconstructions for this document; official NASA photographs are available on the agency's image libraries.",
+      "derived": ["goal", "story"],
+      "sourceDocument": "Abandoned_Equipment_Outside_Earth.docx"
+    },
+
+    {
+      "id": "pioneer-11",
+      "name": "Pioneer 11",
+      "shortName": "Pioneer 11",
+      "body": "deep-space",
+      "category": "Deep-space probe",
+      "model": "pioneer",
+      "agency": "NASA",
+      "country": "United States",
+      "location": {
+        "summary": "Deep space — heading toward the center of the Milky Way / constellation Aquila, ~119 AU from the Sun",
+        "place": "Deep space, toward Aquila",
+        "coordinates": null,
+        "trajectory": { "eclipticLongitudeDeg": 285, "eclipticLatitudeDeg": 15, "approximate": true },
+        "distanceAU": 119
+      },
+      "dates": {
+        "label": "Launched Apr 6, 1973",
+        "launch": "April 6, 1973",
+        "landing": null,
+        "launchYear": 1973,
+        "endYear": 1995
+      },
+      "launchVehicle": null,
+      "goal": "Explore the outer solar system and make the first Saturn flyby, using a Jupiter gravity assist.",
+      "story": "Twin of Pioneer 10 and the first spacecraft to fly by Saturn. It passed closer to Jupiter than its twin, took the first images of Jupiter's polar regions, and discovered Saturn's F ring and two new moons. Its last signal came in November 1995.",
+      "missionPurpose": "Explore the outer solar system; perform first Saturn flyby after using Jupiter gravity assist.",
+      "instruments": [],
+      "keyAchievements": [
+        "Closer approach to Jupiter than Pioneer 10",
+        "First images of Jupiter's polar regions",
+        "First Saturn flyby (September 1, 1979)",
+        "Discovered Saturn's F ring and two new moons"
+      ],
+      "whyLeftBehind": "One-way deep-space probe on an escape trajectory. After Saturn it continued outward; no propulsion or design for return.",
+      "status": {
+        "state": "contact-lost",
+        "label": "Contact lost",
+        "summary": "Last signal November 1995.",
+        "details": "Last signal November 1995. Heading toward the center of the Milky Way / constellation Aquila. Estimated ~119 AU from the Sun.",
+        "lastContact": "Nov 1995",
+        "missionEnded": null
+      },
+      "importantDates": [
+        { "label": "Launch", "date": "6 Apr 1973" },
+        { "label": "Jupiter flyby", "date": "Dec 1974" },
+        { "label": "Saturn flyby", "date": "1 Sep 1979" },
+        { "label": "Last signal", "date": "Nov 1995" }
+      ],
+      "notes": "Twin of Pioneer 10. First spacecraft to fly by Saturn.",
+      "image": null,
+      "sources": [],
+      "sourceNote": "Data compiled from NASA Science, The Planetary Society, NSSDCA, Wikipedia lists of artificial objects, and official mission pages. Images are illustrative reconstructions for this document; official NASA photographs are available on the agency's image libraries.",
+      "derived": ["goal", "story"],
+      "sourceDocument": "Abandoned_Equipment_Outside_Earth.docx"
+    },
+
+    {
+      "id": "voyager-1",
+      "name": "Voyager 1",
+      "shortName": "Voyager 1",
+      "body": "deep-space",
+      "category": "Interstellar probe",
+      "model": "voyager",
+      "agency": "NASA",
+      "country": "United States",
+      "location": {
+        "summary": "Interstellar space — ~172 AU / ~25.9 billion km from the Sun",
+        "place": "Interstellar space",
+        "coordinates": null,
+        "trajectory": { "eclipticLongitudeDeg": 256, "eclipticLatitudeDeg": 35, "approximate": true },
+        "distanceAU": 172
+      },
+      "dates": {
+        "label": "Launched Sep 5, 1977",
+        "launch": "September 5, 1977",
+        "landing": null,
+        "launchYear": 1977,
+        "endYear": null
+      },
+      "launchVehicle": null,
+      "goal": "Fly by Jupiter and Saturn (and Titan), then study the heliosphere and interstellar space.",
+      "story": "Voyager 1 flew past Jupiter and Saturn, then kept going — in August 2012 it became the first spacecraft to enter interstellar space. Still the farthest human-made object, it carries the Golden Record and will reach one light-day from Earth on November 18, 2026.",
+      "missionPurpose": "Fly by Jupiter and Saturn (and Titan). Extended to the Voyager Interstellar Mission to study the heliosphere and interstellar space.",
+      "instruments": [],
+      "keyAchievements": [
+        "Closest approach to Jupiter (March 5, 1979) and Saturn (November 12, 1980)",
+        "First spacecraft to enter interstellar space (August 25, 2012)",
+        "Still the farthest human-made object",
+        "Carries the Golden Record"
+      ],
+      "whyLeftBehind": "Designed as a flyby mission with no return trajectory. Gravity assists from the giant planets sent it on a permanent path out of the solar system. Power comes from radioisotope thermoelectric generators (RTGs) that slowly decline.",
+      "status": {
+        "state": "active",
+        "label": "Still operating",
+        "summary": "Still operating with limited instruments.",
+        "details": "Still operating with limited instruments (magnetometer and plasma wave subsystem). Will reach one light-day from Earth on November 18, 2026. Distance ~172 AU / ~25.9 billion km.",
+        "lastContact": null,
+        "missionEnded": null
+      },
+      "importantDates": [
+        { "label": "Launch", "date": "5 Sep 1977" },
+        { "label": "Jupiter", "date": "5 Mar 1979" },
+        { "label": "Saturn", "date": "12 Nov 1980" },
+        { "label": "Interstellar space", "date": "25 Aug 2012" },
+        { "label": "One light-day from Earth", "date": "18 Nov 2026" }
+      ],
+      "notes": null,
+      "image": {
+        "file": "voyager-1.jpg",
+        "available": true,
+        "caption": "Illustrative image of Voyager 1",
+        "credit": null
+      },
+      "sources": [],
+      "sourceNote": "Data compiled from NASA Science, The Planetary Society, NSSDCA, Wikipedia lists of artificial objects, and official mission pages. Images are illustrative reconstructions for this document; official NASA photographs are available on the agency's image libraries.",
+      "derived": ["goal", "story"],
+      "sourceDocument": "Abandoned_Equipment_Outside_Earth.docx"
+    }
+  ]
+}
